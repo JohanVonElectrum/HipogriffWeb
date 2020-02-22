@@ -1,0 +1,28 @@
+{
+  "name": "HipogriffWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanVonElectrum/HipogriffWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanVonElectrum/HipogriffWeb/issues"
+  },
+  "homepage": "https://github.com/JohanVonElectrum/HipogriffWeb#readme"
+}
