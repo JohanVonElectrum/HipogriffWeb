@@ -14,11 +14,21 @@ body::-webkit-scrollbar {
 div.header {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/shulker.png");
+    background-size:cover;
     background-position: center -20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: header-bg 15s infinite alternate;
+}
+
+@keyframes header-bg {
+    0% {
+        background-image: url("../img/goldfarm.png");
+    }
+    100% {
+        background-image: url("../img/shulkerfarm.png");
+    }
 }
 
 .header > .logo {
