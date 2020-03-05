@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    -ms-overflow-style: none;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+div.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/shulker.png");
+    background-position: center -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header > .logo {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+.header > nav {
+    background-image: linear-gradient(0.25turn, transparent, black, transparent);
+    margin-top: 10vh;
+    padding: 20px 20vw;
+}
+
+.header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul.nonstyle {
+    list-style: none;
+}
+
+ul.nonstyle > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.nonstyle > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.button.gold {
+    border-bottom: 2px solid gold;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    transition: all ease-in-out 0.2s;
+}
+
+.button.gold:hover {
+    border: 2px solid gold;
+    border-radius: 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.button.rounded {
+    border-radius: 25px;
+}
+
+.button.underline {
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.button.underline:hover {
+    border-bottom: 2px solid white;
+}
